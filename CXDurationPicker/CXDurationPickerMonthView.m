@@ -434,7 +434,7 @@
 }
 
 - (NSDate *)dateForFirstDayInSection:(NSInteger)section {
-    section = section - 12;
+    section = section - 60;
     
     NSDate *now = [_calendar dateFromComponents:[_calendar components:NSCalendarUnitYear|NSCalendarUnitMonth
                                                              fromDate:[NSDate date]]];

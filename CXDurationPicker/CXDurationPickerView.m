@@ -117,7 +117,7 @@
     //
 #ifndef COMPONENTS_DEMO
     if (indexPath.row == [tableView numberOfRowsInSection:0] - 3) {
-        [self addMonthsAsync];
+        //[self addMonthsAsync];
     }
 #endif
     
